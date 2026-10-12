@@ -1,5 +1,5 @@
 
-# Diagnóstico de enfermedades en la piel
+# Ayuda al diagnóstico de enfermedades en la piel
 Aplicación destinada a determinar el tipo de lesión de la piel con el objetivo de facilitar su priorización y orientar el tratamiento.
 
 ## 👥 Equipo
