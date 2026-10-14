@@ -16,9 +16,18 @@ repo/
 │   └── NF1_Presentacion_alineacion_viabilidad.pdf
 │
 ├── src/
+│   └── api/
+│   └── data
+│   └── frontend
+│   └── models  
 │
 ├── data/
+│   └── prepared/
+│   └── raw/
+│   └── served/
 │
 ├── environment/
 │
 ├── README.md
+├── .gitignore
+├── requeriments.txt
