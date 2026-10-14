@@ -14,6 +14,7 @@ Aplicación destinada a determinar el tipo de lesión de la piel con el objetivo
 repo/
 ├── docs/
 │   └── NF1_Presentacion_alineacion_viabilidad.pdf
+│   └── NF2_Documentacion_y_Diseno_Tecnico.pdf
 │
 ├── src/
 │   └── api/
