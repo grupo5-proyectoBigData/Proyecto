@@ -23,7 +23,7 @@ repo/
 │   └── models  
 │
 ├── data/
-│   └── prepared/
+│   └── processed/
 |       └── train/
 |       └── test/
 |       └── val/
