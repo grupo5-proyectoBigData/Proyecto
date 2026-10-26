@@ -24,9 +24,17 @@ repo/
 │
 ├── data/
 │   └── prepared/
+|       └── train/
+|       └── test/
+|       └── val/
 │   └── raw/
+|       └── train/
+|       └── test/
+|       └── val/
 │   └── served/
 │
+├── notebooks/
+|
 ├── environment/
 │
 ├── README.md
