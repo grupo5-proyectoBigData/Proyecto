@@ -1,0 +1,2 @@
+modelo,archivo,accuracy,macro_f1,balanced_accuracy,recall_malign,precision_malign
+MobileNetV2,..\src\models\mobilenetv2_best.keras,0.8085738539898133,0.702775791573253,0.7025754975075578,0.7764277035236938,0.8635135135135135
