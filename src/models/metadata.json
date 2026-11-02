@@ -14,7 +14,7 @@
     "batch_size": 16,
     "label_mode": "int",
     "seed": 42,
-    "tensorflow_version": "2.10.0",
+    "tensorflow_version": "2.10.1",
     "EPOCHS": 10,
     "SEED": 42,
     "MODELOS_DIR": "../src/models",
