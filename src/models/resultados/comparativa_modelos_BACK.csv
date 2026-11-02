@@ -1,3 +1,0 @@
-modelo,tipo,resolucion,batch_size,learning_rate,epochs,tiempo_minutos,accuracy,macro_f1,balanced_accuracy
-EfficientNetv2B0,Transfer learning - capas congeladas,224x224,16,0.001,10,111.53,0.7372665534804754,0.6287045523800593,0.6513578600654275
-MobileNetV2,..\src\models\mobilenetv2_best.keras,0.8085738539898133,0.702775791573253,0.7025754975075578,0.7764277035236938,0.8635135135135135
