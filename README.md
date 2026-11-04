@@ -7,7 +7,7 @@ Aplicación destinada a determinar el tipo de lesión de la piel con el objetivo
 - Antonio Jesús Terrón Moreno — Project Lead & BI
 - Guimel Barrientos Ustariz — Data & Frontend Developer
 - David Codón Agüera — ML
-- Elvis Bruno Díaz Riera — Platform
+- Bruno Díaz Riera — Platform
   
 ## 📁 Estructura
 ```text
