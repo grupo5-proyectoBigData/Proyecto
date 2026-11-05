@@ -39,4 +39,60 @@ repo/
 │
 ├── README.md
 ├── .gitignore
-├── requeriments.txt
+├── requirements.txt
+
+
+
+
+## Ejecución del backend (API)
+
+### Requisitos
+- Python 3.9
+- Modelo entrenado `mobilenetv2.keras`
+- Dependencias indicadas en `requirements.txt`
+
+### Instalación
+
+Crear y activar el entorno virtual:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Instalar las dependencias:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### Arranque de la API
+
+Desde la raíz del proyecto:
+
+```bash
+python -m uvicorn src.api.main:app --reload
+```
+
+La API estará disponible en:
+
+- API: http://127.0.0.1:8000
+- Documentación interactiva: http://127.0.0.1:8000/docs
+- Estado del servicio: http://127.0.0.1:8000/health
+
+### Endpoint de predicción
+
+`POST /predict`
+
+Recibe una imagen JPEG, PNG o WEBP y devuelve:
+- Clase predicha.
+- Nivel de confianza.
+- Probabilidades de las seis categorías.
+
+### Ejecución de pruebas
+
+Desde la raíz del proyecto:
+
+```bash
+python -m pytest -v
+```
