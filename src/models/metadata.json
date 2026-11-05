@@ -1,0 +1,23 @@
+{
+    "class_names": [
+        "1. Enfeksiyonel",
+        "2. Ekzama",
+        "3. Akne",
+        "4. Pigment",
+        "5. Benign",
+        "6. Malign"
+    ],
+    "image_size": [
+        224,
+        224
+    ],
+    "batch_size": 16,
+    "label_mode": "int",
+    "seed": 42,
+    "tensorflow_version": "2.10.1",
+    "EPOCHS": 10,
+    "SEED": 42,
+    "MODELOS_DIR": "../src/models",
+    "RESULTS_DIR": "../src/models/resultados",
+    "DATASET_DIR": "../data/processed/"
+}

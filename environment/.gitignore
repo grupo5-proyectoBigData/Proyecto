@@ -1,0 +1,38 @@
+# Lista de elementos a excluir 
+# Entornos virtuales
+.venv/
+venv/
+
+# Caché y compilados Python
+__pycache__/
+*.py[cod]
+
+# Datos de imágenes: no se suben a Git
+data/raw/*
+data/processed/*
+
+# Mantener visibles las carpetas de datos
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Pesos y checkpoints de modelos
+models/*.pt
+models/*.pth
+models/*.onnx
+checkpoints/
+
+# Salidas temporales de experimentos
+outputs/tmp/
+runs/
+wandb/
+
+# Secretos y configuración local
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE y sistema operativo
+.vscode/
+.idea/
+.DS_Store
