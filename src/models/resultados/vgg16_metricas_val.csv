@@ -1,0 +1,2 @@
+modelo,archivo,accuracy,macro_f1,balanced_accuracy,recall_malign,precision_malign
+VGG16,..\src\models\vgg16.keras,0.8370118845500849,0.7282690646507574,0.7322428171539093,0.7910085054678008,0.9016620498614959
