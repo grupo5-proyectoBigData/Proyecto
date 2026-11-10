@@ -1,0 +1,14 @@
+Para notebooks, para poder usar la GPU en Windows:
+
+¡¡ IMPORTANTE!!
+ Instalar con conda install xxxxxx --no-update-deps -y, sobre todo Matplotlib y scikit-learn, para que no actualice dependencias
+
+Python==3.10
+tensorflow==2.10.1
+tensorboard==2.10.1
+protobuf==3.19.6
+numpy==1.26.4
+ml-dtypes==0.2.0
+CUDA==11.2
+cuDNN==8.1
+keras==2.10.0
