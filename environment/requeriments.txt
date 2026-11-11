@@ -1,4 +1,4 @@
-Para notebooks, para poder usar la GPU en Windows:
+Para ejecutar notebooks usando la GPU en Windows:
 
 ¡¡ IMPORTANTE!!
  Instalar con conda install xxxxxx --no-update-deps -y, sobre todo Matplotlib y scikit-learn, para que no actualice dependencias
