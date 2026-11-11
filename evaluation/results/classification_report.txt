@@ -1,0 +1,14 @@
+INFORME DE EVALUACIÓN DEL MODELO VGG16
+
+                 precision    recall  f1-score   support
+
+1. Enfeksiyonel       0.55      0.79      0.65       750
+      2. Ekzama       0.72      0.47      0.57       510
+        3. Akne       0.84      0.68      0.75       322
+     4. Pigment       0.69      0.43      0.53       136
+      5. Benign       0.71      0.73      0.72      1361
+      6. Malign       0.62      0.57      0.60       849
+
+       accuracy                           0.66      3928
+      macro avg       0.69      0.61      0.64      3928
+   weighted avg       0.67      0.66      0.66      3928
